@@ -1,0 +1,30 @@
+<!--I name this project as a Clock with an Alarm 
+in this project you can see the time and you can set an alarm also hope you like it
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Clock</title>
+</head>
+<body>
+    <section class="container">
+        <div id="clock"></div>
+        <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+        <div class="controls">
+            <button onclick="setAlarm()" class="button set-alarm">Set alarm</button>
+            <button onclick="clearAlarm()" class="button stop-alarm">Stop alarm</button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html><!--
+Hi I am Prabhave Tailor I am a student studying in grade VII.
+Please follow me if you think I make good projects
+ more projects are on the way -->
